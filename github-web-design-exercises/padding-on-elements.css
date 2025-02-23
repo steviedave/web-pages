@@ -1,0 +1,61 @@
+button {
+  background-color: rgb(69, 46, 111);;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: opacity 0.15s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.back-button {
+  margin-right: 10px;
+}
+
+.next-button {
+  margin-left: 10px;
+}
+
+p {
+  color: rgb(69, 46, 111);
+  display: inline-block;
+  margin-top: 0px;
+  padding-top: 8px;
+}
+
+.one {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.two {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.three {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.four {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.five {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+

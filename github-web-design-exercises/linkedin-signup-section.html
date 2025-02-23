@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LinkedIn Signup</title>
+
+  <style>
+
+    * {
+      font-family: arial;
+      font-size: 13px;
+    }
+
+    #email-box {
+      width: 300px;
+      height: 24px;
+      border-style: solid;
+      border-width: 1.3px;
+      border-color: rgba(0,0,0,0.8);
+      border-radius: 3px;
+      padding-left: 8px;
+      padding-right: 8px;
+      
+    }
+
+    #join-button {
+      margin-top: 6px;
+      width: 318px;
+      height: 38px;
+      border: none;
+      border-radius: 19px;
+      background-color: rgb(52, 98, 195);
+      color: white;
+      cursor: pointer;
+      transition: opacity 0.3s;
+      font-size: 15px;
+    }
+
+    #join-button:hover {
+      opacity: 0.95;
+    }
+
+    #join-button:active {
+      opacity: 0.9;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text {
+      margin-top: 16px;
+      color: rgba(0,0,0,0.7);
+    }
+
+    .email-label {
+      color: rgba(0,0,0,0.7);
+      padding-bottom: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class = "form">
+    <label for = "email-box" class = "email-label">Email</label>
+    <input id = "email-box" type = "email" placeholder = "username@gmail.com">
+    <p class = "text">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button id = "join-button" type = "submit">Agree & Join</button>
+  </div>
+</body>
+</html>

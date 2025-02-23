@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>twitter text box</title>
+
+  <style>
+    * {
+      font-family: arial;
+    }
+
+    #tweet-section {
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+    }
+
+    #profile-pic {
+      width: 42px;
+      height: 42px;
+      object-fit: cover;
+      object-position: center;
+      vertical-align: middle;
+      border-radius: 30px;
+    }
+
+
+    #tweet-box {
+      border: none;
+      vertical-align: middle;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 21px;
+      padding-left: 16px;
+      padding-right: 16px;
+      box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.2);
+      outline: none;
+    }
+
+    #tweet-button {
+      border: none;
+      background-color: #1DA1F2;
+      height: 30px;
+      width: 60px;
+      vertical-align: middle;
+      font-weight: bold;
+      color: white;
+      border-radius: 15px;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+
+  </style>
+</head>
+<body>
+  <div id = "tweet-section">
+    <img src = "cat.jpg" id = "profile-pic">
+    <input id = "tweet-box" type = "text" placeholder = "What's happening?">
+    <button id = "tweet-button" type = "submit">Tweet</button>
+  </div>
+</body>
+</html>
